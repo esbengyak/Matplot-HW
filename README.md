@@ -157,17 +157,12 @@ legend.legendHandles[2]._sizes = [40]
 
 plt.text(42, 35, "Note:\nCircle size correlates with driver count per city.")
 
+plt.savefig("RideBubblePlot.png")
+
 ```
 
 
-
-
-    Text(42,35,'Note:\nCircle size correlates with driver count per city.')
-
-
-
-
-![png](output_3_1.png)
+![png](output_3_0.png)
 
 
 
@@ -193,17 +188,12 @@ plt.pie(pie_percents,
         startangle=270)
 plt.title("% of Total Fares by City Type")
 
+plt.savefig("FareByCity.png")
+
 ```
 
 
-
-
-    Text(0.5,1,'% of Total Fares by City Type')
-
-
-
-
-![png](output_4_1.png)
+![png](output_4_0.png)
 
 
 
@@ -229,17 +219,12 @@ plt.pie(pie_percents,
         startangle=270)
 plt.title("% of Total Ride by City Type")
 
+plt.savefig("RideByCity1.png")
+
 ```
 
 
-
-
-    Text(0.5,1,'% of Total Ride by City Type')
-
-
-
-
-![png](output_5_1.png)
+![png](output_5_0.png)
 
 
 
@@ -265,16 +250,10 @@ plt.pie(pie_percents,
         startangle=270)
 plt.title("% of Total Drivers by City Type")
 
+plt.savefig("DriverByCity.png")
 
 ```
 
 
-
-
-    Text(0.5,1,'% of Total Drivers by City Type')
-
-
-
-
-![png](output_6_1.png)
+![png](output_6_0.png)
 
